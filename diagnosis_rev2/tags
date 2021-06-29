@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EVENT_BODY_LENGTH_LOWER	source/diagnosisMgr.cpp	24;"	d	file:
+EVENT_BODY_LENGTH_UPPER	source/diagnosisMgr.cpp	23;"	d	file:
+EVENT_HEADER_LENGTH	source/diagnosisMgr.cpp	22;"	d	file:
+FILE_BATT	source/diagnosisMgr.cpp	26;"	d	file:
+FILE_CAM	source/diagnosisMgr.cpp	27;"	d	file:
+HIGH	source/diagnosisMgr.cpp	30;"	d	file:
+HIGH_VOLTAGE	source/diagnosisMgr.cpp	28;"	d	file:
+LOW	source/diagnosisMgr.cpp	32;"	d	file:
+LOW_VOLTAGE	source/diagnosisMgr.cpp	29;"	d	file:
+NORMAL	source/diagnosisMgr.cpp	31;"	d	file:
+_DIAGNOSISMGR_HPP	include/diagnosisMgr.hpp	12;"	d
+_modemStatus	source/diagnosisMgr.cpp	/^struct _modemStatus$/;"	s	file:
+diagnosisMgr	include/diagnosisMgr.hpp	/^    diagnosisMgr(){}$/;"	f	class:diagnosisMgr
+diagnosisMgr	include/diagnosisMgr.hpp	/^class diagnosisMgr : public Singleton<diagnosisMgr>$/;"	c
+getServerPort	include/diagnosisMgr.hpp	/^    virtual uint16_t getServerPort() { return DIAGNOSIS_PORT; }$/;"	f	class:diagnosisMgr
+gpsStatus	source/diagnosisMgr.cpp	/^    uint8_t gpsStatus;$/;"	m	struct:_modemStatus	file:
+handle_Event	source/diagnosisMgr.cpp	/^void diagnosisMgr::handle_Event(shared_ptr<CEventPacket> event) {$/;"	f	class:diagnosisMgr
+handle_Reconnect	source/diagnosisMgr.cpp	/^void diagnosisMgr::handle_Reconnect() {$/;"	f	class:diagnosisMgr
+handle_ReconnectCommmgr	source/diagnosisMgr.cpp	/^void diagnosisMgr::handle_ReconnectCommmgr() {$/;"	f	class:diagnosisMgr
+handle_ReconnectModem	source/diagnosisMgr.cpp	/^void diagnosisMgr::handle_ReconnectModem() {$/;"	f	class:diagnosisMgr
+handle_keyboard	source/main.cpp	/^gboolean handle_keyboard (GIOChannel *source, GIOCondition cond, void *data) {$/;"	f
+handle_routine	source/diagnosisMgr.cpp	/^void * diagnosisMgr::handle_routine(void *arg) {$/;"	f	class:diagnosisMgr
+handle_routine_commmgr	source/diagnosisMgr.cpp	/^void * diagnosisMgr::handle_routine_commmgr(void *arg) {$/;"	f	class:diagnosisMgr
+handle_routine_internal	source/diagnosisMgr.cpp	/^void * diagnosisMgr::handle_routine_internal(void *arg) {$/;"	f	class:diagnosisMgr
+handle_routine_modem	source/diagnosisMgr.cpp	/^void * diagnosisMgr::handle_routine_modem(void *arg) {$/;"	f	class:diagnosisMgr
+handler_Event	source/diagnosisMgr.cpp	/^void diagnosisMgr::handler_Event(shared_ptr<CEventPacket> event) {$/;"	f	class:diagnosisMgr
+handler_Reconnect	source/diagnosisMgr.cpp	/^void diagnosisMgr::handler_Reconnect() {$/;"	f	class:diagnosisMgr
+handler_ReconnectCommmgr	source/diagnosisMgr.cpp	/^void diagnosisMgr::handler_ReconnectCommmgr() {$/;"	f	class:diagnosisMgr
+handler_ReconnectModem	source/diagnosisMgr.cpp	/^void diagnosisMgr::handler_ReconnectModem() {$/;"	f	class:diagnosisMgr
+mCameraStatus	source/diagnosisMgr.cpp	/^uint8_t mCameraStatus;$/;"	v
+mModemStatus	source/diagnosisMgr.cpp	/^_modemStatus mModemStatus;$/;"	v
+main	source/main.cpp	/^int main(int argc, char **argv)$/;"	f
+networkStatus	source/diagnosisMgr.cpp	/^    uint8_t networkStatus;$/;"	m	struct:_modemStatus	file:
+otaStatus	source/diagnosisMgr.cpp	/^    uint8_t otaStatus;$/;"	m	struct:_modemStatus	file:
+receive_thread	include/diagnosisMgr.hpp	/^    pthread_t receive_thread;$/;"	m	class:diagnosisMgr
+rndisStatus	source/diagnosisMgr.cpp	/^    uint8_t rndisStatus;$/;"	m	struct:_modemStatus	file:
+serviceStatus	source/diagnosisMgr.cpp	/^    uint8_t serviceStatus;$/;"	m	struct:_modemStatus	file:
+simStatus	source/diagnosisMgr.cpp	/^    uint8_t simStatus;$/;"	m	struct:_modemStatus	file:
+startApplication	include/diagnosisMgr.hpp	/^    virtual void startApplication() {$/;"	f	class:diagnosisMgr
+statusNormal	source/diagnosisMgr.cpp	/^    uint8_t statusNormal;$/;"	m	struct:_modemStatus	file:
+~diagnosisMgr	include/diagnosisMgr.hpp	/^    virtual ~diagnosisMgr(){}$/;"	f	class:diagnosisMgr
